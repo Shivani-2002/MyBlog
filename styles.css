@@ -1,0 +1,77 @@
+@font-face {
+    font-family: myFonts;
+    src: url(Love\ Letters.ttf);
+
+}
+
+h1 {
+    font-family: myFonts;
+    color: violet;
+    font-size: 60px;
+    background-color: rgba(241, 236, 236, 0.863);
+    letter-spacing: 4px;
+    text-align: center;
+   margin: 0;
+    
+}
+
+body{
+    background-image: url("https://cdn141.picsart.com/271596300005201.png");
+    /* Center and scale the image nicely */
+    background-position: center fixed;
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: rgb(248, 247, 247);
+
+    overflow: scroll;
+}
+.saying{
+    text-align: center;
+    font-style: italic;
+    
+    
+}
+.para1{
+    margin-left:50px ;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(184, 42, 184);
+    font-style: oblique;
+    
+}
+
+.myExp
+{
+    margin: 20px;
+    font-size: 18px;
+}
+
+a:link{
+    font-size: 20px;
+    margin-left: 30px;
+    color:rgb(197, 58, 179)
+}
+
+a:hover{
+    color:rgb(233, 29, 104)
+}
+
+.Images{
+    display:flex;
+}
+#img1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+    height: 350px;
+
+}
+
+#img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+}
